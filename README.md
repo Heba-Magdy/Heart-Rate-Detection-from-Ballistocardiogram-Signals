@@ -266,7 +266,6 @@ Evaluated across **22 patients** (overnight BCG recordings, fs = 140 Hz):
 ## Known Limitations
 
 - BCG estimates converge to ~91 bpm across patients regardless of true HR, indicating the wavelet level and peak detection minimum distance require further tuning for fs = 140 Hz.
-- Breathing rate estimates (avg ~19 bpm) are physiologically plausible and appear more reliable than HR estimates.
 - MODWTMRA reconstruction is imperfect (inherited from original Python implementation).
 - RR reference file timestamps may contain gaps, affecting per-window reference HR accuracy.
 
@@ -278,4 +277,3 @@ Evaluated across **22 patients** (overnight BCG recordings, fs = 140 Hz):
 
 2. Code Ocean Capsule #1398208 — BCG Signal Processing Reference Implementation. https://codeocean.com/capsule/1398208
 
-3. M. Duarte, "detect_peaks.py," BMC Notebook, 2016. https://github.com/demotu/BMC
