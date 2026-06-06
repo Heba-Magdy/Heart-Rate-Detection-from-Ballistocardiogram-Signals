@@ -26,9 +26,9 @@
 
 ## Project Overview
 
-This project implements a **signal processing pipeline in Julia** to estimate Heart Rate (HR) from Ballistocardiogram (BCG) signals recorded during overnight sleep sessions. The implementation is a manual conversion of the original Python codebase published on Code Ocean, with several bugs identified and corrected during translation.
+This project implements a **signal processing pipeline in Julia** to estimate Heart Rate (HR) from Ballistocardiogram (BCG) signals recorded during overnight sleep sessions. The implementation is a manual conversion of the original Python codebase published on Code Ocean.
 
-The pipeline is evaluated against ECG-derived reference RR interval signals across **22 patients** using seven statistical metrics.
+The pipeline is evaluated against ECG-derived reference RR interval signals across **22 patients** using seven statistical metrics, the total number of patients is 32 but only 22 has ECG reference data.
 
 ### Source & Reference
 
